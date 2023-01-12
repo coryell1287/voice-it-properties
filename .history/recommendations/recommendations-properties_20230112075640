@@ -1,0 +1,9 @@
+spring.application.name=spring cloud config server
+
+server.port=8888
+
+spring.cloud.config.server.git.uri=file:///Users/dragonstone/Development/epoch-microservices/git-local-repo
+
+logging.level.org.springframework=debug
+logging.pattern.console=%d{yyyy-MM-dd HH:mm:ss} - %msg%n
+server.error.include-message=always
